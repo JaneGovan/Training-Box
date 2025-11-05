@@ -1,0 +1,21 @@
+model_name_or_path: ./models/Qwen2.5-1.5B-Instruct
+train_data_path: ./data/test
+output_dir: ./save_models/sft/Qwen2.5-1.5B-Instruct
+device_map: auto
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4
+do_train: true
+num_train_epochs: 3
+# save_strategy: epoch
+save_steps: 102
+learning_rate: 5.0e-4
+optim: adamw_torch
+weight_decay: 0.0
+fp16: true
+max_length: 512
+max_grad_norm: 1.0
+logging_steps: 10
+preprocessing_num_workers: 16
+lr_scheduler_type: cosine
+trust_remote_code: true
+# deepspeed: ./ds_config/ds_z2_config.json

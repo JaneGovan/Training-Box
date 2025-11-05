@@ -1,0 +1,266 @@
+[
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is it?",
+        "role": "user"
+      },
+      {
+        "content": "It is an image of training_loss.",
+        "role": "assistant"
+      },
+      {
+        "content": "<image>Are this image and before image same?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "./training_loss.png",
+      "./training_loss.png"
+    ]
+  }
+]
