@@ -19,43 +19,57 @@ huggingface-cli download --resume-download <model_id> --local-dir ./models/<mode
 
 ## 训练LLM
 ### 预训练
-[**预训练语料**](./data/pretrain)
-[**配置文件**](./yaml/continue_pretrain.yaml)
-#### run
+[预训练语料](./data/pretrain)
+
+[配置文件](./yaml/continue_pretrain.yaml)
+
 ```python
 CUDA_VISIBLE_DEVICES=0 python continue_pretrain.py -f ./yaml/continue_pretrain.yaml
 ```
 
 ### 微调
-[**文本数据集**](./data/sft/llm)
-[**配置文件**](./yaml/sft.yaml)
-#### run
+#### 文本LLM
+[文本数据集](./data/sft/llm)
+
+[配置文件](./yaml/sft.yaml)
+
 ```python
 CUDA_VISIBLE_DEVICES=0 python sft.py -f ./yaml/sft.yaml
 ```
-[**多模态数据集**](./data/sft/vlm)
-[**配置文件**](./yaml/sft_v.yaml)
-#### run
+
+#### 多模态LLM
+[多模态数据集](./data/sft/vlm)
+
+[配置文件](./yaml/sft_v.yaml)
+
 ```python
 CUDA_VISIBLE_DEVICES=0 python sft_v.py -f ./yaml/sft_v.yaml
 ```
 
 ### 强化学习
-[**DPO数据集**](./data/rl/dpo)
-[**配置文件**](./yaml/dpo.yaml)
-#### run
+#### DPO
+[DPO数据集](./data/rl/dpo)
+
+[配置文件](./yaml/dpo.yaml)
+
 ```python
 CUDA_VISIBLE_DEVICES=0 python dpo.py -f ./yaml/dpo.yaml
 ```
-[**PPO数据集**](./data/rl/ppo)
-[**配置文件**](./yaml/ppo.yaml)
-#### run
+
+#### PPO
+[PPO数据集](./data/rl/ppo)
+
+[配置文件](./yaml/ppo.yaml)
+
 ```python
 CUDA_VISIBLE_DEVICES=0 python ppo.py -f ./yaml/ppo.yaml
 ```
-[**GRPO数据集**](./data/rl/grpo)
-[**配置文件**](./yaml/grpo.yaml)
-#### run
+
+#### GRPO
+[GRPO数据集](./data/rl/grpo)
+
+[配置文件](./yaml/grpo.yaml)
+
 ```python
 CUDA_VISIBLE_DEVICES=0 python grpo.py -f ./yaml/grpo.yaml
 ```
